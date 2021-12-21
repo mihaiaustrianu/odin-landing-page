@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hero-navbar {
+  background-color: #1f2937;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  font-weight: bold;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero {
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  box-shadow: none;
+  border: 1px solid royalblue;
+  color: white;
+  font-size: 0.875rem;
+}
+.parrot-image {
+  height: auto;
+  max-width: 300px;
+}
